@@ -47,7 +47,7 @@ class PalgateApiClient:
             "Connection": "keep-alive",
             "Content-Type": "application/json",
             "User-Agent": "BlueGate/115 CFNetwork/1128.0.1 Darwin/19.6.0",
-            "x-bt-user-token": f"{self.token}",
+            "x-bt-token": f"{self.token}",
         }
 
     def is_opening(self) -> bool:
